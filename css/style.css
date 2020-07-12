@@ -1,0 +1,105 @@
+@media screen and (max-width: 800px) {
+	html{
+		font-size:8px;
+	}
+}
+
+
+/* nav */
+.nav-title-dist {
+	padding: 0 5% 0 1%;
+}
+
+.navbar .navbar-brand{
+	font-family: NanumSquareR;
+	line-height: 1.68;
+	text-align: left;
+	color: #35465d;
+}
+
+.navbar-light .navbar-toggler{
+	border-color: #ffffff
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-nav .nav-link.active,  .navbar-nav .nav-link.show, .navbar-nav .show>.nav-link .navbar-light {
+	text-decoration: underline;
+    color: rgba(0,0,0,.9);
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav{
+	text-decoration: underline;
+     color: rgba(0,0,0,.9);
+}
+
+/* title */
+#title{
+	margin-top: 6%;
+}
+
+#title-text{
+	width: 21%;
+    display: inline-block;
+}
+#title-help >img{
+	max-width: 30%;
+}
+
+/* content */
+#content {
+	padding-top: 2%;
+}
+#content-panel {
+	background-color: #cccccc;
+	height: 37rem;
+	padding-top: 2%;
+}
+
+
+/* style */
+.mybtn-1{
+	background:    #15d798;
+	border-color: #15d798;
+	border-radius: 1000px;
+	padding:       10px 35px;
+	color:         #ffffff;
+	display:       inline-block;
+	font:          normal bold 15px "Open Sans", sans-serif;
+	text-align:    center;
+	margin-top: 2%;
+}
+.text-align-center{
+	text-align: center;
+}
+
+.cursor-pointer{
+	cursor: pointer;
+}
+
+.text-bold{
+	font-weight: bold;
+}
+
+.text-1_5em{
+	font-size: 1.5em;
+}
+
+.margin-left-1em{
+	margin-left: 1em;
+}
+
+.margin-left-5em{
+	margin-left: 5em;
+}
+
+.margin-top-1em{
+	margin-top: 1em;
+}
+.margin-top-3em{
+	margin-top: 3em;
+}
+.margin-bottom-3em{
+	margin-bottom: 3.5em;
+}
+#text-nickname{
+	width: 35%;
+}
